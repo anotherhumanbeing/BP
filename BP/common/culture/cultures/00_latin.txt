@@ -1342,8 +1342,8 @@
 	
 	male_names = {
 	
-            Èdano_Aeddan Adcobrovatus Agrauéno_Agrafin Alano_Alan Alèsandrè_Alexander Aléno_Alwyn Amminius Annans_Annan Abono_Apon Apullius Araziéco_Aradig Aradòco_Aradoc  Arauéno_Arawain Aroto_Arod Ardéualo_Arthfael Arduro_Arthur Arviragus Agrauèno_Agravain Baléno_Balin Balés_Balise Bèturo_Bedwyr
-            Bèdéno_Bedwyn Blégino_Bleddyn Blézico_Bleiddig Bodiccius Bòrs_Bors Brigomaglos Brétannéco_Britannicus Bròcivalo_Brochvael Bròcimalo_Brochmael Bréno_Brwyn Brocano_Brychan Brano_Bran Cacumattus Cadano_Caddan Cadello_Cadell Catovallo_Cadfael Cadoco_Cadog Catovallo_Cadwal
+            Èdano Adcobrovatus Agrauéno Alano Alèsandrè Aléno Amminius Annans Abono Apullius Araziéco Aradòco Arauéno Aroto Ardéualo Arduro Arviragus Agrauèno Baléno Balés Bèturo
+            Bèdéno Blégino Blézico Bodiccius Bòrs Brigomaglos Brétannéco Bròcivalo Bròcimalo Bréno Brocano Brano Cacumattus Cadano Cadello Catovallo Cadoco Catovallo_Cadwal
             Catovallòno_Cadwallon Catovio_Cadwy Cièlégino_Caelgyn Céo_Cai Caréco_Carig Ciéno_Cain Calèdino_Caleddin Caratòco_Caradoc Caraleto_Caraled Carauéno_Carawain Cauano_Cavan Casovallono_Caswallon Ciérziéco_Cerdig Ciértòco_Cerdoc Ciérvino_Cerfin
             Ciérlino_Cerlyn Ciérvéno_Cerwain Ciélvino_Celwin Ciétòvino_Cedwyn Cièrézico_Ceredig Ciéléo_Coel Corénéo_Corineus Còscénino_Constantine Conòvarco_Cynfarch Conòvèlino_Cynfelyn Conòvino_Cynfyn Conòvallòno_Cynwallon Colòco_Culhwch Davido_David
             Giéniolo_Deiniol Gièréllé_Derella Dorrico_Dyrrig Dovrigo_Dyfrig Dòrvalo_Dorfael Drostano_Drystan Èdérno_Edern Odono_Edwin Éitro_Ector Égnono_Einion Èldoco_Eldoc Èlvéno_Elgwyn Éciérno_Eachern Èlvéno_Elwain Èlvédo_Elwydd Èméris_Ambrose Érmédo_Ermid
@@ -1379,6 +1379,152 @@
 	pat_grm_name_chance = 10
 	mat_grm_name_chance = 30
 	mother_name_chance = 0
+	
+	ethnicities = {
+			5 = caucasian_blond
+			30 = caucasian_ginger
+			35 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
 
         }
+	
+	#Bridaney
+	british_romance = {
+	
+	color = { 0.39 0.715 0.72 }
+	
+	cadet_dynasty_names = {
+	"dynn_Benewenté"
+	"dynn_Ceredhògé"
+	"dynn_Crésgentí"
+	"dynn_Domigen"
+	"dynn_Dréstení"
+	"dynn_Egíg"
+	"dynn_Enigé"
+	"dynn_Epòlit"
+	"dynn_Epòllínaré"
+	"dynn_Eregíg"
+	"dynn_Eretré"
+	"dynn_Flaccé"
+	"dynn_Garrigí"
+	"dynn_Gelíen"
+	"dynn_Geònin"
+	"dynn_Gerengí"
+	"dynn_Guétré"
+	"dynn_Hegondé"
+	"dynn_Herpéngí"
+	"dynn_Hewin"
+	"dynn_Himmag"
+	"dynn_Híwigí"
+	"dynn_Lanwelí"
+	"dynn_Liget"
+	"dynn_Llílí"
+	"dynn_Lugíen"
+	"dynn_Meím"
+	"dynn_Melcuné"
+	"dynn_Meòríen"
+	"dynn_Míríedhogé"
+	"dynn_Mogesté"
+	"dynn_Orílíen"
+	"dynn_Ouéníen"
+	"dynn_Péscatré"
+	"dynn_Píe"
+	}
+	
+	
+	dynasty_names = {
+	"dynn_Benewenté"
+	"dynn_Ceredhògé"
+	"dynn_Crésgentí"
+	"dynn_Domigen"
+	"dynn_Dréstení"
+	"dynn_Egíg"
+	"dynn_Enigé"
+	"dynn_Epòlit"
+	"dynn_Epòllínaré"
+	"dynn_Eregíg"
+	"dynn_Eretré"
+	"dynn_Flaccé"
+	"dynn_Garrigí"
+	"dynn_Gelíen"
+	"dynn_Geònin"
+	"dynn_Gerengí"
+	"dynn_Guétré"
+	"dynn_Hegondé"
+	"dynn_Herpéngí"
+	"dynn_Hewin"
+	"dynn_Himmag"
+	"dynn_Híwigí"
+	"dynn_Lanwelí"
+	"dynn_Liget"
+	"dynn_Llílí"
+	"dynn_Lugíen"
+	"dynn_Meím"
+	"dynn_Melcuné"
+	"dynn_Meòríen"
+	"dynn_Míríedhogé"
+	"dynn_Mogesté"
+	"dynn_Orílíen"
+	"dynn_Ouéníen"
+	"dynn_Péscatré"
+	"dynn_Píe"
+	}
+	
+	
+	male_names = {
+            Abon Agilé Alb Alben Alén Ambrosin Annan Antonin Appé Ardur Argeíuel Arroen Arroín Balí
+            Bedén Bedur Belén Blégí Blégin Bor Bran Brén Brídaney Brogan Brogemal Brogeual Brú Cind
+            Cogénin Colo Conouallon Conouarge Conouelin Conouin Coréné Cornelé Créví Cró Crouí Deué
+            Dobrigí Domidgen Dorrí Dorrí Dorual Drostan Drostan Edhan Edhérn Édhoual Égé Egearé Égil Éhe
+            Elan Eldoe Eleandre Eluédh Eluén Eluén Éorué Érbin Eredho Eregéy Érmídh Erod Eroén Errépe Éuel
+            Fabien Floí Foluí Gederí Gedhan Gedhelle Gédholl Gedoe Gedoualle Gedoualle Gedouallon Gedoui Gédouin
+            Gégilé Gegím Gelé Geléd Geledhin Gelegin Gellá Géluin Gén Géneol Gerado Gerald Gerauen Gerdo
+            Geréd Gerégey Geregíey Gerelé Gerelé Gerélle Géren Gereuen Gerey Gergey Gergin Geríló Gérlin
+            Gerovén Gerred Géruén Géruin Gesouallon Geuan Gevér Gíd Giulí Godouan Goén Gregéan Guedor
+            Gueleréan Guelerén Guerdhérn Gueré Guergel Guerogé Guí Guí Guidelén Guílodhin Guindorí Guítri
+            Hecondhe Hesd Hettím Ídoé Ídoían Ígérn Íméri Ínnon Ítre Ledharn Léged Légehey Lenoual
+            Lenoual Léodhon Léri Léue Locrégí Loélin Loidemar Longén Lugí Madoe Malcor Malcor Maluin
+            Maluin Marc Mardhoe Margelle Mehém Mehémien Mél Melín Mepon Méré Meréd Merí Merían Méruen
+            Mílir Míney Mírédoe Míríon Morín Morrigé Moruan Murí Nagen Nebor Nír Odhon Ole Ored Oregé
+            Orelé Ouín Pedarn Pedarn Perdénei Peredur Peredur Pergil Pliné Pol Pongé Prim Regérd Rígol
+            Rínel Rogérí Rouén Ruf Set Tallesén Tegíd Téodorí Tergé Tudhoual Tudhouallon Ugere Urien
+        }
+        female_names = {
+            Adhe Enníe Íloíde Éronoíne Éroníe Elíe Enníe Ennesde Anuíle Eníde Argíne Eríene Blodhoíne Bronoíne
+            Géreuíne Gíríe Gíríe Lleríande Genoíne Díloe Deníe Donoín Gíene Ífe Ílene Elíne Elíníone Elínore
+            Elíne Eníe Lliní Guínofere Guíne Guéndhe Guínofere Guenéllíene Guenoíne Guerfílle Goledhé Elíe Oloíne
+            Oílle Íloe Iebelle Íolde Ledhoíe Líenore Loríe Lunete Meríe Mere Megéldhe Margerede Maruenne Meléande
+            Morgene Méríene Morgoe Noruénne Noílle Nefíne Oluíne Ouíne Relle Rovíne Harlénne Here Heríne Híbille
+            Gíene Susanne Heríne Elíe Elíene Emilíe Albe Gegilíe Gelíe Gemílle Gíe Llodhíe Lloilíe Cornelíe
+            Gegíme Domige Domigílle Fabiene Fogíne Floíe Foluíe Germene Llogíe Gregéana Giulíe Léuíe Lugíe
+            Lugílle Lucregíe Margelle Margíne Nerue Ídoíe Pole Petroníe Prígille Gebíne Getorníne Geuírin
+            Tegíde Tollíe Gueleríe Gueníue Guíole Guérgínie
+        }
+     
+        dynasty_of_location_prefix = "dynnp_d'"
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+		
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 30
+	mother_name_chance = 0
+	
+	ethnicities = {
+			5 = caucasian_blond
+			30 = caucasian_ginger
+			35 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
+		
+		mercenary_names = {
+		{name = "mercenary_company_the_round_table}
+		}
+
+        }
+	
 }
